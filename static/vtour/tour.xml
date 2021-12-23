@@ -122,7 +122,7 @@
    design_text_shadow="1" <!--皮肤的文字阴影-->
 
 	<!-- startup action - load the first scene -->
-   <!-- 动态节点动画 -->
+   <!-- 动态热点动画 -->
 	<action name="startup" autorun="onstart">
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
@@ -156,7 +156,7 @@
 		);
    </action>
 
-   <!-- 热点拖拽节点 -->
+   <!-- 热点拖拽方法 -->
 	<!-- <action name="draghotspot">
 		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, 'l');
 		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
@@ -218,6 +218,5 @@
 		</image>
 		<hotspot name="spot4" style="skin_hotspotstyle|roomspot|skin_tooltips" ath="-171.432" atv="33.983" linkedscene="scene2" tooltip="返回中庭" />
 	</scene>
-
 
 </krpano>
