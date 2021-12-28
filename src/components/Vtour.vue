@@ -12,9 +12,7 @@
       enter-active-class="showUp"
       leave-active-class="hideDown"
     >
-      <div>
-        <qrcode v-if="show" @closeorder="getorder" @setFov="setFov"></qrcode>
-      </div>
+      <qrcode v-if="show" @closeorder="getorder" @setFov="setFov"></qrcode>
     </transition>
     <div id="pano"></div>
   </div>

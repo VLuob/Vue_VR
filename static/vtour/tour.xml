@@ -179,7 +179,7 @@
 		</image>
 
       <!-- 动态热点 -->
-      <hotspot name="spot1" url="img/animatedhotspot_white.png" onloaded="do_crop_animation(64,64, 60);" ath="1.000" atv="-2.000" onclick="goto(scene2);" style="roomspot|skin_tooltips"  tooltip="进入中庭" />
+      <hotspot name="spot1" url="img/spot13.png" onloaded="do_crop_animation(64,64, 60);" ath="0.921" atv="2.899" onclick="goto(scene2);" style="roomspot|skin_tooltips"  tooltip="进入中庭" />
 		<!-- <hotspot name="spot4" style="skin_hotspotstyle|roomspot|skin_tooltips" ath="0.921" atv="2.899" linkedscene="scene2" tooltip="get:scene[scene2].title"  ondown="draghotspot();" /> -->
       <!-- 自动旋转 -->
          <!-- <autorotate enabled="false"
